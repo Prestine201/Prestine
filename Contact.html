@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestine Org</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styleNSTP.css">
+</head>
+<body>
+
+<div class="topnav">
+  <div class="nav-left">
+    <span class="brand">Prestine</span>
+  </div>
+  <div class="nav-right" id="navLinks">
+    <a href="IndexNSTP.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="Project Gallery.html">Project Gallery</a>
+    <a href="Diary.html">Diary</a>
+    <a href="Contact.html" class="active">Contact Us</a>
+  </div>
+  <div class="icon" onclick="toggleNav()">
+    <i class="fa fa-bars"></i>
+  </div>
+</div>
+
+<script>
+function toggleNav() {
+  const nav = document.getElementById("navLinks");
+  nav.classList.toggle("show");
+}
+</script>
+
+<footer class="footer">
+  <h4>For educational purposes only &copy; Prestine 2025</h4>
+  <p>National Service Training Program</p>
+</footer>
+
+</body>
+</html>
